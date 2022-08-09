@@ -3,18 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hrm.testcase.QuickLuchTestScript2">
+      <class name="hrm.testcase.LeaveListTestScript8">
         <methods>
-          <include name="CloseApp"/>
-          <include name="Assignleave"/>
-          <include name="Myleave"/>
-          <include name="Applyleave"/>
-          <include name="oppApp"/>
           <include name="Leavelist"/>
-          <include name="Timesheet"/>
-          <include name="Mytimesheet"/>
+          <include name="CloseApp"/>
+          <include name="oppApp"/>
         </methods>
-      </class> <!-- hrm.testcase.QuickLuchTestScript2 -->
+      </class> <!-- hrm.testcase.LeaveListTestScript8 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

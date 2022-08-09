@@ -48,13 +48,9 @@ public void login() throws Exception
 {
 
 // TODO Auto-generated method stub
-	usernametextfield.sendKeys(pdata.getpropertyData("username"));
-	passwordtextfeild.sendKeys(pdata.getpropertyData("password"));
-	SubmitButton.submit();
-	String gettile = driver.getTitle();
-	System.out.println(gettile);
-	String getcurrentUrl = driver.getCurrentUrl();
-	System.out.println(getcurrentUrl);
+	usernametextfield.sendKeys(pdata.getpropertyData("username")); /// Getting username
+	passwordtextfeild.sendKeys(pdata.getpropertyData("password"));  /// Getting password
+	SubmitButton.submit(); //Submit
 	 
 }
 

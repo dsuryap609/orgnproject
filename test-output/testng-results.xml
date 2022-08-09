@@ -1,558 +1,764 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="0" failed="1" skipped="5">
+<testng-results ignored="0" total="29" passed="29" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Login]]>
+    </line>
+    <line>
+      <![CDATA[Pim]]>
+    </line>
+    <line>
+      <![CDATA[Leave]]>
+    </line>
+    <line>
+      <![CDATA[Time]]>
+    </line>
+    <line>
+      <![CDATA[Recruitment]]>
+    </line>
+    <line>
+      <![CDATA[Myinfo]]>
+    </line>
+    <line>
+      <![CDATA[Performance]]>
+    </line>
+    <line>
+      <![CDATA[Directory]]>
+    </line>
+    <line>
+      <![CDATA[Maintenance]]>
+    </line>
+    <line>
+      <![CDATA[Buzz]]>
+    </line>
+    <line>
+      <![CDATA[Marketplace]]>
+    </line>
+    <line>
+      <![CDATA[Notification]]>
+    </line>
+    <line>
+      <![CDATA[Questionmark]]>
+    </line>
+    <line>
+      <![CDATA[WelcomeMenuTologout]]>
+    </line>
+    <line>
+      <![CDATA[Assignleave]]>
+    </line>
+    <line>
+      <![CDATA[Leavelist]]>
+    </line>
+    <line>
+      <![CDATA[Timesheet]]>
+    </line>
+    <line>
+      <![CDATA[Applyleavelink]]>
+    </line>
+    <line>
+      <![CDATA[Myleave]]>
+    </line>
+    <line>
+      <![CDATA[Myleavelink]]>
+    </line>
+    <line>
+      <![CDATA[Mytimesheet]]>
+    </line>
+    <line>
+      <![CDATA[Mytimesheetlink]]>
+    </line>
+    <line>
+      <![CDATA[Adimtuser]]>
+    </line>
+    <line>
+      <![CDATA[User_System]]>
+    </line>
+    <line>
+      <![CDATA[CheckBox]]>
+    </line>
+    <line>
+      <![CDATA[Buzz]]>
+    </line>
+    <line>
+      <![CDATA[Buzz1]]>
+    </line>
+    <line>
+      <![CDATA[Buzz2]]>
+    </line>
+    <line>
+      <![CDATA[HomePagetoPayGrade]]>
+    </line>
+    <line>
+      <![CDATA[AdimtouserToJobTile]]>
+    </line>
+    <line>
+      <![CDATA[Leavelist]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-08-05T18:12:08 IST" name="Default suite" finished-at="2022-08-05T18:12:26 IST" duration-ms="17975">
+  <suite started-at="2022-08-09T17:16:39 IST" name="Test Automation OrangeHRM framework Test Suite" finished-at="2022-08-09T17:25:31 IST" duration-ms="532299">
     <groups>
     </groups>
-    <test started-at="2022-08-05T18:12:08 IST" name="Default test" finished-at="2022-08-05T18:12:26 IST" duration-ms="17975">
-      <class name="hrm.testcase.QuickLuchTestScript2">
-        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.QuickLuchTestScript2@6581dc0a]" started-at="2022-08-05T18:12:08 IST" name="oppApp" finished-at="2022-08-05T18:12:15 IST" duration-ms="6258" status="PASS">
+    <test started-at="2022-08-09T17:16:39 IST" name="Test" finished-at="2022-08-09T17:25:31 IST" duration-ms="532299">
+      <class name="hrm.testcase.AdminTestScript3">
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.AdminTestScript3@536d97f8]" started-at="2022-08-09T17:21:54 IST" name="oppApp" finished-at="2022-08-09T17:22:00 IST" duration-ms="6102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- oppApp -->
-        <test-method signature="Assignleave()[pri:1, instance:hrm.testcase.QuickLuchTestScript2@6581dc0a]" started-at="2022-08-05T18:12:15 IST" name="Assignleave" finished-at="2022-08-05T18:12:22 IST" duration-ms="7416" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to find element with locator By.xpath: (//Span[@class='quickLinkText'])[1]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'GLB-185-PC', ip: '192.168.5.165', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.2'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: (//Span[@class='quickLinkText'])[1]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'GLB-185-PC', ip: '192.168.5.165', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.2'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-at hrm.page.HomePage.Assignleavelink(HomePage.java:17)
-at hrm.testcase.QuickLuchTestScript2.Assignleave(QuickLuchTestScript2.java:19)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="Adimtouser()[pri:1, instance:hrm.testcase.AdminTestScript3@536d97f8]" started-at="2022-08-09T17:22:00 IST" name="Adimtouser" finished-at="2022-08-09T17:22:11 IST" duration-ms="10746" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Adimtuser]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- Assignleave -->
-        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.QuickLuchTestScript2@6581dc0a]" started-at="2022-08-05T18:12:22 IST" name="CloseApp" finished-at="2022-08-05T18:12:26 IST" duration-ms="4029" status="FAIL">
+        </test-method> <!-- Adimtouser -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.AdminTestScript3@536d97f8]" started-at="2022-08-09T17:22:11 IST" name="CloseApp" finished-at="2022-08-09T17:22:12 IST" duration-ms="1140" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Assignleave status=FAILURE method=QuickLuchTestScript2.Assignleave()[pri:1, instance:hrm.testcase.QuickLuchTestScript2@6581dc0a] output={null}]]]>
+                <![CDATA[[TestResult name=Adimtouser status=SUCCESS method=AdminTestScript3.Adimtouser()[pri:1, instance:hrm.testcase.AdminTestScript3@536d97f8] output=Adimtuser]]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=104.0.5112.81)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'GLB-185-PC', ip: '192.168.5.165', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [341b1dd55d06e200a865625868a94573, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\GLB-185\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49807}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49807/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 341b1dd55d06e200a865625868a94573]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=104.0.5112.81)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'GLB-185-PC', ip: '192.168.5.165', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [341b1dd55d06e200a865625868a94573, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\GLB-185\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49807}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49807/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 341b1dd55d06e200a865625868a94573
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:624)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:628)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:353)
-at hrm.ScreenShot.ScreenShot.takeScreenshotAtEndOfTest(ScreenShot.java:22)
-at hrm.base.HrmBaseClass.CloseApp(HrmBaseClass.java:45)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApp -->
-        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.QuickLuchTestScript2@6581dc0a]" started-at="2022-08-05T18:12:26 IST" name="oppApp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1659703346504" status="SKIP">
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.AdminTestScript3@536d97f8]" started-at="2022-08-09T17:22:12 IST" name="oppApp" finished-at="2022-08-09T17:22:28 IST" duration-ms="15831" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- oppApp -->
-        <test-method signature="Leavelist()[pri:2, instance:hrm.testcase.QuickLuchTestScript2@6581dc0a]" started-at="2022-08-05T18:12:26 IST" name="Leavelist" finished-at="2022-08-05T18:12:26 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=104.0.5112.81)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'GLB-185-PC', ip: '192.168.5.165', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [341b1dd55d06e200a865625868a94573, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\GLB-185\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49807}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49807/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 341b1dd55d06e200a865625868a94573]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=104.0.5112.81)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'GLB-185-PC', ip: '192.168.5.165', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [341b1dd55d06e200a865625868a94573, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\GLB-185\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49807}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49807/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 341b1dd55d06e200a865625868a94573
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:624)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:628)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:353)
-at hrm.ScreenShot.ScreenShot.takeScreenshotAtEndOfTest(ScreenShot.java:22)
-at hrm.base.HrmBaseClass.CloseApp(HrmBaseClass.java:45)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="User_System()[pri:2, instance:hrm.testcase.AdminTestScript3@536d97f8]" started-at="2022-08-09T17:22:28 IST" name="User_System" finished-at="2022-08-09T17:22:43 IST" duration-ms="15125" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[User_System]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- User_System -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.AdminTestScript3@536d97f8]" started-at="2022-08-09T17:22:43 IST" name="CloseApp" finished-at="2022-08-09T17:22:44 IST" duration-ms="729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=User_System status=SUCCESS method=AdminTestScript3.User_System()[pri:2, instance:hrm.testcase.AdminTestScript3@536d97f8] output=User_System]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.AdminTestScript3@536d97f8]" started-at="2022-08-09T17:22:44 IST" name="oppApp" finished-at="2022-08-09T17:22:54 IST" duration-ms="10267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppApp -->
+        <test-method signature="CheckBox()[pri:3, instance:hrm.testcase.AdminTestScript3@536d97f8]" started-at="2022-08-09T17:22:54 IST" name="CheckBox" finished-at="2022-08-09T17:23:05 IST" duration-ms="11515" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CheckBox]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckBox -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.AdminTestScript3@536d97f8]" started-at="2022-08-09T17:23:05 IST" name="CloseApp" finished-at="2022-08-09T17:23:07 IST" duration-ms="1480" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckBox status=SUCCESS method=AdminTestScript3.CheckBox()[pri:3, instance:hrm.testcase.AdminTestScript3@536d97f8] output=CheckBox]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- hrm.testcase.AdminTestScript3 -->
+      <class name="hrm.testcase.HomePageTestScript5">
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:16:56 IST" name="oppApp" finished-at="2022-08-09T17:17:04 IST" duration-ms="8465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppApp -->
+        <test-method signature="Pim()[pri:1, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:17:04 IST" name="Pim" finished-at="2022-08-09T17:17:14 IST" duration-ms="9556" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Pim]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Pim -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:17:14 IST" name="CloseApp" finished-at="2022-08-09T17:17:14 IST" duration-ms="578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Pim status=SUCCESS method=HomePageTestScript5.Pim()[pri:1, instance:hrm.testcase.HomePageTestScript5@526b2f3e] output=Pim]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:17:14 IST" name="oppApp" finished-at="2022-08-09T17:17:22 IST" duration-ms="7552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppApp -->
+        <test-method signature="Leave()[pri:2, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:17:22 IST" name="Leave" finished-at="2022-08-09T17:17:29 IST" duration-ms="6916" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Leave]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Leave -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:17:29 IST" name="CloseApp" finished-at="2022-08-09T17:17:29 IST" duration-ms="586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Leave status=SUCCESS method=HomePageTestScript5.Leave()[pri:2, instance:hrm.testcase.HomePageTestScript5@526b2f3e] output=Leave]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:17:29 IST" name="oppApp" finished-at="2022-08-09T17:17:38 IST" duration-ms="8593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppApp -->
+        <test-method signature="Time()[pri:3, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:17:38 IST" name="Time" finished-at="2022-08-09T17:17:45 IST" duration-ms="7274" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Time]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Time -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:17:45 IST" name="CloseApp" finished-at="2022-08-09T17:17:46 IST" duration-ms="583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Time status=SUCCESS method=HomePageTestScript5.Time()[pri:3, instance:hrm.testcase.HomePageTestScript5@526b2f3e] output=Time]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:17:46 IST" name="oppApp" finished-at="2022-08-09T17:17:54 IST" duration-ms="8476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppApp -->
+        <test-method signature="Recruitment()[pri:4, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:17:54 IST" name="Recruitment" finished-at="2022-08-09T17:18:02 IST" duration-ms="7784" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Recruitment]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Recruitment -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:18:02 IST" name="CloseApp" finished-at="2022-08-09T17:18:03 IST" duration-ms="593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Recruitment status=SUCCESS method=HomePageTestScript5.Recruitment()[pri:4, instance:hrm.testcase.HomePageTestScript5@526b2f3e] output=Recruitment]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:18:03 IST" name="oppApp" finished-at="2022-08-09T17:18:11 IST" duration-ms="8594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppApp -->
+        <test-method signature="Myinfo()[pri:5, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:18:11 IST" name="Myinfo" finished-at="2022-08-09T17:18:19 IST" duration-ms="7990" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Myinfo]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Myinfo -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:18:19 IST" name="CloseApp" finished-at="2022-08-09T17:18:20 IST" duration-ms="583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Myinfo status=SUCCESS method=HomePageTestScript5.Myinfo()[pri:5, instance:hrm.testcase.HomePageTestScript5@526b2f3e] output=Myinfo]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:18:20 IST" name="oppApp" finished-at="2022-08-09T17:18:28 IST" duration-ms="8025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppApp -->
+        <test-method signature="Performance()[pri:6, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:18:28 IST" name="Performance" finished-at="2022-08-09T17:18:34 IST" duration-ms="5651" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Performance]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Performance -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:18:34 IST" name="CloseApp" finished-at="2022-08-09T17:18:34 IST" duration-ms="593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Performance status=SUCCESS method=HomePageTestScript5.Performance()[pri:6, instance:hrm.testcase.HomePageTestScript5@526b2f3e] output=Performance]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:18:34 IST" name="oppApp" finished-at="2022-08-09T17:18:43 IST" duration-ms="8622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppApp -->
+        <test-method signature="Directory()[pri:7, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:18:43 IST" name="Directory" finished-at="2022-08-09T17:18:58 IST" duration-ms="15232" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Directory]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Directory -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:18:58 IST" name="CloseApp" finished-at="2022-08-09T17:18:59 IST" duration-ms="584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Directory status=SUCCESS method=HomePageTestScript5.Directory()[pri:7, instance:hrm.testcase.HomePageTestScript5@526b2f3e] output=Directory]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:18:59 IST" name="oppApp" finished-at="2022-08-09T17:19:07 IST" duration-ms="8786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppApp -->
+        <test-method signature="Maintenance()[pri:8, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:19:07 IST" name="Maintenance" finished-at="2022-08-09T17:19:15 IST" duration-ms="7601" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Maintenance]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Maintenance -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:19:15 IST" name="CloseApp" finished-at="2022-08-09T17:19:16 IST" duration-ms="592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Maintenance status=SUCCESS method=HomePageTestScript5.Maintenance()[pri:8, instance:hrm.testcase.HomePageTestScript5@526b2f3e] output=Maintenance]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:19:16 IST" name="oppApp" finished-at="2022-08-09T17:19:23 IST" duration-ms="6962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppApp -->
+        <test-method signature="Buzz()[pri:9, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:19:23 IST" name="Buzz" finished-at="2022-08-09T17:19:32 IST" duration-ms="9590" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Buzz]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Buzz -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:19:32 IST" name="CloseApp" finished-at="2022-08-09T17:19:33 IST" duration-ms="598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Buzz status=SUCCESS method=HomePageTestScript5.Buzz()[pri:9, instance:hrm.testcase.HomePageTestScript5@526b2f3e] output=Buzz]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:19:33 IST" name="oppApp" finished-at="2022-08-09T17:19:39 IST" duration-ms="6065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppApp -->
+        <test-method signature="Marketplace()[pri:10, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:19:39 IST" name="Marketplace" finished-at="2022-08-09T17:19:47 IST" duration-ms="8535" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Marketplace]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Marketplace -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:19:47 IST" name="CloseApp" finished-at="2022-08-09T17:19:48 IST" duration-ms="598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Marketplace status=SUCCESS method=HomePageTestScript5.Marketplace()[pri:10, instance:hrm.testcase.HomePageTestScript5@526b2f3e] output=Marketplace]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:19:48 IST" name="oppApp" finished-at="2022-08-09T17:19:54 IST" duration-ms="6163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppApp -->
+        <test-method signature="Notification()[pri:11, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:19:54 IST" name="Notification" finished-at="2022-08-09T17:20:02 IST" duration-ms="8148" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Notification]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Notification -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:20:02 IST" name="CloseApp" finished-at="2022-08-09T17:20:03 IST" duration-ms="602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Notification status=SUCCESS method=HomePageTestScript5.Notification()[pri:11, instance:hrm.testcase.HomePageTestScript5@526b2f3e] output=Notification]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:20:03 IST" name="oppApp" finished-at="2022-08-09T17:20:10 IST" duration-ms="6768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppApp -->
+        <test-method signature="Questionmarklink()[pri:12, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:20:10 IST" name="Questionmarklink" finished-at="2022-08-09T17:20:15 IST" duration-ms="5307" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Questionmark]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Questionmarklink -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:20:15 IST" name="CloseApp" finished-at="2022-08-09T17:20:16 IST" duration-ms="593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Questionmarklink status=SUCCESS method=HomePageTestScript5.Questionmarklink()[pri:12, instance:hrm.testcase.HomePageTestScript5@526b2f3e] output=Questionmark]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:20:16 IST" name="oppApp" finished-at="2022-08-09T17:20:21 IST" duration-ms="5892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppApp -->
+        <test-method signature="WelcomeMenuTologout()[pri:13, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:20:21 IST" name="WelcomeMenuTologout" finished-at="2022-08-09T17:20:29 IST" duration-ms="7171" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[WelcomeMenuTologout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- WelcomeMenuTologout -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.HomePageTestScript5@526b2f3e]" started-at="2022-08-09T17:20:29 IST" name="CloseApp" finished-at="2022-08-09T17:20:29 IST" duration-ms="654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WelcomeMenuTologout status=SUCCESS method=HomePageTestScript5.WelcomeMenuTologout()[pri:13, instance:hrm.testcase.HomePageTestScript5@526b2f3e] output=WelcomeMenuTologout]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- hrm.testcase.HomePageTestScript5 -->
+      <class name="hrm.testcase.LeaveListTestScript8">
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.LeaveListTestScript8@17947e6d]" started-at="2022-08-09T17:25:04 IST" name="oppApp" finished-at="2022-08-09T17:25:13 IST" duration-ms="8944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppApp -->
+        <test-method signature="Leavelist()[pri:1, instance:hrm.testcase.LeaveListTestScript8@17947e6d]" started-at="2022-08-09T17:25:13 IST" name="Leavelist" finished-at="2022-08-09T17:25:31 IST" duration-ms="17310" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Leavelist]]>
+            </line>
           </reporter-output>
         </test-method> <!-- Leavelist -->
-        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.QuickLuchTestScript2@6581dc0a]" started-at="2022-08-05T18:12:26 IST" name="CloseApp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1659703346509" status="SKIP">
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.LeaveListTestScript8@17947e6d]" started-at="2022-08-09T17:25:31 IST" name="CloseApp" finished-at="2022-08-09T17:25:31 IST" duration-ms="804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Leavelist status=SUCCESS method=LeaveListTestScript8.Leavelist()[pri:1, instance:hrm.testcase.LeaveListTestScript8@17947e6d] output=Leavelist]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApp -->
-        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.QuickLuchTestScript2@6581dc0a]" started-at="2022-08-05T18:12:26 IST" name="oppApp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1659703346511" status="SKIP">
+      </class> <!-- hrm.testcase.LeaveListTestScript8 -->
+      <class name="hrm.testcase.PayGradeTestScript7">
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.PayGradeTestScript7@37496720]" started-at="2022-08-09T17:24:17 IST" name="oppApp" finished-at="2022-08-09T17:24:25 IST" duration-ms="8115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- oppApp -->
-        <test-method signature="Timesheet()[pri:3, instance:hrm.testcase.QuickLuchTestScript2@6581dc0a]" started-at="2022-08-05T18:12:26 IST" name="Timesheet" finished-at="2022-08-05T18:12:26 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=104.0.5112.81)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'GLB-185-PC', ip: '192.168.5.165', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [341b1dd55d06e200a865625868a94573, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\GLB-185\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49807}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49807/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 341b1dd55d06e200a865625868a94573]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=104.0.5112.81)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'GLB-185-PC', ip: '192.168.5.165', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [341b1dd55d06e200a865625868a94573, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\GLB-185\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49807}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49807/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 341b1dd55d06e200a865625868a94573
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:624)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:628)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:353)
-at hrm.ScreenShot.ScreenShot.takeScreenshotAtEndOfTest(ScreenShot.java:22)
-at hrm.base.HrmBaseClass.CloseApp(HrmBaseClass.java:45)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="HomePagetoPayGrade()[pri:1, instance:hrm.testcase.PayGradeTestScript7@37496720]" started-at="2022-08-09T17:24:25 IST" name="HomePagetoPayGrade" finished-at="2022-08-09T17:24:40 IST" duration-ms="14419" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[HomePagetoPayGrade]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- HomePagetoPayGrade -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.PayGradeTestScript7@37496720]" started-at="2022-08-09T17:24:40 IST" name="CloseApp" finished-at="2022-08-09T17:24:41 IST" duration-ms="719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePagetoPayGrade status=SUCCESS method=PayGradeTestScript7.HomePagetoPayGrade()[pri:1, instance:hrm.testcase.PayGradeTestScript7@37496720] output=HomePagetoPayGrade]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- hrm.testcase.PayGradeTestScript7 -->
+      <class name="hrm.testcase.BuzzTestScript4">
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.BuzzTestScript4@3c50ad4b]" started-at="2022-08-09T17:23:07 IST" name="oppApp" finished-at="2022-08-09T17:23:20 IST" duration-ms="12846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppApp -->
+        <test-method signature="Buzz()[pri:1, instance:hrm.testcase.BuzzTestScript4@3c50ad4b]" started-at="2022-08-09T17:23:20 IST" name="Buzz" finished-at="2022-08-09T17:23:30 IST" duration-ms="9729" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Buzz]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Buzz -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.BuzzTestScript4@3c50ad4b]" started-at="2022-08-09T17:23:30 IST" name="CloseApp" finished-at="2022-08-09T17:23:30 IST" duration-ms="781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Buzz status=SUCCESS method=BuzzTestScript4.Buzz()[pri:1, instance:hrm.testcase.BuzzTestScript4@3c50ad4b] output=Buzz]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.BuzzTestScript4@3c50ad4b]" started-at="2022-08-09T17:23:30 IST" name="oppApp" finished-at="2022-08-09T17:23:41 IST" duration-ms="10566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppApp -->
+        <test-method signature="Buzz1()[pri:2, instance:hrm.testcase.BuzzTestScript4@3c50ad4b]" started-at="2022-08-09T17:23:41 IST" name="Buzz1" finished-at="2022-08-09T17:23:57 IST" duration-ms="15707" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Buzz1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Buzz1 -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.BuzzTestScript4@3c50ad4b]" started-at="2022-08-09T17:23:57 IST" name="CloseApp" finished-at="2022-08-09T17:23:58 IST" duration-ms="1196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Buzz1 status=SUCCESS method=BuzzTestScript4.Buzz1()[pri:2, instance:hrm.testcase.BuzzTestScript4@3c50ad4b] output=Buzz1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.BuzzTestScript4@3c50ad4b]" started-at="2022-08-09T17:23:58 IST" name="oppApp" finished-at="2022-08-09T17:24:05 IST" duration-ms="7668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppApp -->
+        <test-method signature="Buzz2()[pri:3, instance:hrm.testcase.BuzzTestScript4@3c50ad4b]" started-at="2022-08-09T17:24:05 IST" name="Buzz2" finished-at="2022-08-09T17:24:17 IST" duration-ms="11153" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Buzz2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Buzz2 -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.BuzzTestScript4@3c50ad4b]" started-at="2022-08-09T17:24:17 IST" name="CloseApp" finished-at="2022-08-09T17:24:17 IST" duration-ms="637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Buzz2 status=SUCCESS method=BuzzTestScript4.Buzz2()[pri:3, instance:hrm.testcase.BuzzTestScript4@3c50ad4b] output=Buzz2]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- hrm.testcase.BuzzTestScript4 -->
+      <class name="hrm.testcase.LoginPageTestScript1">
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.LoginPageTestScript1@43c87306]" started-at="2022-08-09T17:16:39 IST" name="oppApp" finished-at="2022-08-09T17:16:49 IST" duration-ms="10028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppApp -->
+        <test-method signature="LoginTestScript()[pri:0, instance:hrm.testcase.LoginPageTestScript1@43c87306]" started-at="2022-08-09T17:16:49 IST" name="LoginTestScript" finished-at="2022-08-09T17:16:55 IST" duration-ms="5821" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginTestScript -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.LoginPageTestScript1@43c87306]" started-at="2022-08-09T17:16:55 IST" name="CloseApp" finished-at="2022-08-09T17:16:56 IST" duration-ms="676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTestScript status=SUCCESS method=LoginPageTestScript1.LoginTestScript()[pri:0, instance:hrm.testcase.LoginPageTestScript1@43c87306] output=Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- hrm.testcase.LoginPageTestScript1 -->
+      <class name="hrm.testcase.JobTileTestScript6">
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.JobTileTestScript6@28f9fedd]" started-at="2022-08-09T17:24:41 IST" name="oppApp" finished-at="2022-08-09T17:24:49 IST" duration-ms="8308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppApp -->
+        <test-method signature="AdimtouserToJobTile()[pri:1, instance:hrm.testcase.JobTileTestScript6@28f9fedd]" started-at="2022-08-09T17:24:49 IST" name="AdimtouserToJobTile" finished-at="2022-08-09T17:25:04 IST" duration-ms="14930" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AdimtouserToJobTile]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AdimtouserToJobTile -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.JobTileTestScript6@28f9fedd]" started-at="2022-08-09T17:25:04 IST" name="CloseApp" finished-at="2022-08-09T17:25:04 IST" duration-ms="646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AdimtouserToJobTile status=SUCCESS method=JobTileTestScript6.AdimtouserToJobTile()[pri:1, instance:hrm.testcase.JobTileTestScript6@28f9fedd] output=AdimtouserToJobTile]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- hrm.testcase.JobTileTestScript6 -->
+      <class name="hrm.testcase.QuickLuchTestScript2">
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.QuickLuchTestScript2@6f2e1024]" started-at="2022-08-09T17:20:29 IST" name="oppApp" finished-at="2022-08-09T17:20:35 IST" duration-ms="6032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppApp -->
+        <test-method signature="Assignleave()[pri:1, instance:hrm.testcase.QuickLuchTestScript2@6f2e1024]" started-at="2022-08-09T17:20:35 IST" name="Assignleave" finished-at="2022-08-09T17:20:41 IST" duration-ms="6087" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Assignleave]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Assignleave -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.QuickLuchTestScript2@6f2e1024]" started-at="2022-08-09T17:20:41 IST" name="CloseApp" finished-at="2022-08-09T17:20:42 IST" duration-ms="592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Assignleave status=SUCCESS method=QuickLuchTestScript2.Assignleave()[pri:1, instance:hrm.testcase.QuickLuchTestScript2@6f2e1024] output=Assignleave]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.QuickLuchTestScript2@6f2e1024]" started-at="2022-08-09T17:20:42 IST" name="oppApp" finished-at="2022-08-09T17:20:49 IST" duration-ms="6568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppApp -->
+        <test-method signature="Leavelist()[pri:2, instance:hrm.testcase.QuickLuchTestScript2@6f2e1024]" started-at="2022-08-09T17:20:49 IST" name="Leavelist" finished-at="2022-08-09T17:20:56 IST" duration-ms="7134" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Leavelist]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Leavelist -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.QuickLuchTestScript2@6f2e1024]" started-at="2022-08-09T17:20:56 IST" name="CloseApp" finished-at="2022-08-09T17:20:56 IST" duration-ms="584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Leavelist status=SUCCESS method=QuickLuchTestScript2.Leavelist()[pri:2, instance:hrm.testcase.QuickLuchTestScript2@6f2e1024] output=Leavelist]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.QuickLuchTestScript2@6f2e1024]" started-at="2022-08-09T17:20:56 IST" name="oppApp" finished-at="2022-08-09T17:21:03 IST" duration-ms="6623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppApp -->
+        <test-method signature="Timesheet()[pri:3, instance:hrm.testcase.QuickLuchTestScript2@6f2e1024]" started-at="2022-08-09T17:21:03 IST" name="Timesheet" finished-at="2022-08-09T17:21:09 IST" duration-ms="6307" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Timesheet]]>
+            </line>
           </reporter-output>
         </test-method> <!-- Timesheet -->
-        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.QuickLuchTestScript2@6581dc0a]" started-at="2022-08-05T18:12:26 IST" name="CloseApp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1659703346519" status="SKIP">
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.QuickLuchTestScript2@6f2e1024]" started-at="2022-08-09T17:21:09 IST" name="CloseApp" finished-at="2022-08-09T17:21:10 IST" duration-ms="595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Timesheet status=SUCCESS method=QuickLuchTestScript2.Timesheet()[pri:3, instance:hrm.testcase.QuickLuchTestScript2@6f2e1024] output=Timesheet]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApp -->
-        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.QuickLuchTestScript2@6581dc0a]" started-at="2022-08-05T18:12:26 IST" name="oppApp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1659703346520" status="SKIP">
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.QuickLuchTestScript2@6f2e1024]" started-at="2022-08-09T17:21:10 IST" name="oppApp" finished-at="2022-08-09T17:21:17 IST" duration-ms="7189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- oppApp -->
-        <test-method signature="Applyleave()[pri:4, instance:hrm.testcase.QuickLuchTestScript2@6581dc0a]" started-at="2022-08-05T18:12:26 IST" name="Applyleave" finished-at="2022-08-05T18:12:26 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=104.0.5112.81)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'GLB-185-PC', ip: '192.168.5.165', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [341b1dd55d06e200a865625868a94573, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\GLB-185\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49807}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49807/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 341b1dd55d06e200a865625868a94573]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=104.0.5112.81)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'GLB-185-PC', ip: '192.168.5.165', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [341b1dd55d06e200a865625868a94573, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\GLB-185\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49807}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49807/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 341b1dd55d06e200a865625868a94573
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:624)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:628)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:353)
-at hrm.ScreenShot.ScreenShot.takeScreenshotAtEndOfTest(ScreenShot.java:22)
-at hrm.base.HrmBaseClass.CloseApp(HrmBaseClass.java:45)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="Applyleave()[pri:4, instance:hrm.testcase.QuickLuchTestScript2@6f2e1024]" started-at="2022-08-09T17:21:17 IST" name="Applyleave" finished-at="2022-08-09T17:21:24 IST" duration-ms="7431" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Applyleavelink]]>
+            </line>
           </reporter-output>
         </test-method> <!-- Applyleave -->
-        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.QuickLuchTestScript2@6581dc0a]" started-at="2022-08-05T18:12:26 IST" name="CloseApp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1659703346529" status="SKIP">
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.QuickLuchTestScript2@6f2e1024]" started-at="2022-08-09T17:21:24 IST" name="CloseApp" finished-at="2022-08-09T17:21:25 IST" duration-ms="590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Applyleave status=SUCCESS method=QuickLuchTestScript2.Applyleave()[pri:4, instance:hrm.testcase.QuickLuchTestScript2@6f2e1024] output=Applyleavelink]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApp -->
-        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.QuickLuchTestScript2@6581dc0a]" started-at="2022-08-05T18:12:26 IST" name="oppApp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1659703346530" status="SKIP">
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.QuickLuchTestScript2@6f2e1024]" started-at="2022-08-09T17:21:25 IST" name="oppApp" finished-at="2022-08-09T17:21:32 IST" duration-ms="6975" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- oppApp -->
-        <test-method signature="Myleave()[pri:5, instance:hrm.testcase.QuickLuchTestScript2@6581dc0a]" started-at="2022-08-05T18:12:26 IST" name="Myleave" finished-at="2022-08-05T18:12:26 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=104.0.5112.81)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'GLB-185-PC', ip: '192.168.5.165', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [341b1dd55d06e200a865625868a94573, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\GLB-185\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49807}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49807/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 341b1dd55d06e200a865625868a94573]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=104.0.5112.81)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'GLB-185-PC', ip: '192.168.5.165', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [341b1dd55d06e200a865625868a94573, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\GLB-185\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49807}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49807/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 341b1dd55d06e200a865625868a94573
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:624)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:628)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:353)
-at hrm.ScreenShot.ScreenShot.takeScreenshotAtEndOfTest(ScreenShot.java:22)
-at hrm.base.HrmBaseClass.CloseApp(HrmBaseClass.java:45)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="Myleave()[pri:5, instance:hrm.testcase.QuickLuchTestScript2@6f2e1024]" started-at="2022-08-09T17:21:32 IST" name="Myleave" finished-at="2022-08-09T17:21:40 IST" duration-ms="7539" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Myleave]]>
+            </line>
+            <line>
+              <![CDATA[Myleavelink]]>
+            </line>
           </reporter-output>
         </test-method> <!-- Myleave -->
-        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.QuickLuchTestScript2@6581dc0a]" started-at="2022-08-05T18:12:26 IST" name="CloseApp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1659703346534" status="SKIP">
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.QuickLuchTestScript2@6f2e1024]" started-at="2022-08-09T17:21:40 IST" name="CloseApp" finished-at="2022-08-09T17:21:40 IST" duration-ms="587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Myleave status=SUCCESS method=QuickLuchTestScript2.Myleave()[pri:5, instance:hrm.testcase.QuickLuchTestScript2@6f2e1024] output=Myleave]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApp -->
-        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.QuickLuchTestScript2@6581dc0a]" started-at="2022-08-05T18:12:26 IST" name="oppApp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1659703346536" status="SKIP">
+        <test-method is-config="true" signature="oppApp()[pri:0, instance:hrm.testcase.QuickLuchTestScript2@6f2e1024]" started-at="2022-08-09T17:21:40 IST" name="oppApp" finished-at="2022-08-09T17:21:47 IST" duration-ms="6821" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- oppApp -->
-        <test-method signature="Mytimesheet()[pri:6, instance:hrm.testcase.QuickLuchTestScript2@6581dc0a]" started-at="2022-08-05T18:12:26 IST" name="Mytimesheet" finished-at="2022-08-05T18:12:26 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=104.0.5112.81)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'GLB-185-PC', ip: '192.168.5.165', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [341b1dd55d06e200a865625868a94573, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\GLB-185\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49807}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49807/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 341b1dd55d06e200a865625868a94573]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=104.0.5112.81)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'GLB-185-PC', ip: '192.168.5.165', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [341b1dd55d06e200a865625868a94573, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\GLB-185\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49807}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49807/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 341b1dd55d06e200a865625868a94573
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:624)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:628)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:353)
-at hrm.ScreenShot.ScreenShot.takeScreenshotAtEndOfTest(ScreenShot.java:22)
-at hrm.base.HrmBaseClass.CloseApp(HrmBaseClass.java:45)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="Mytimesheet()[pri:6, instance:hrm.testcase.QuickLuchTestScript2@6f2e1024]" started-at="2022-08-09T17:21:47 IST" name="Mytimesheet" finished-at="2022-08-09T17:21:53 IST" duration-ms="6401" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Mytimesheet]]>
+            </line>
+            <line>
+              <![CDATA[Mytimesheetlink]]>
+            </line>
           </reporter-output>
         </test-method> <!-- Mytimesheet -->
-        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.QuickLuchTestScript2@6581dc0a]" started-at="2022-08-05T18:12:26 IST" name="CloseApp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1659703346712" status="SKIP">
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:hrm.testcase.QuickLuchTestScript2@6f2e1024]" started-at="2022-08-09T17:21:53 IST" name="CloseApp" finished-at="2022-08-09T17:21:54 IST" duration-ms="603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Mytimesheet status=SUCCESS method=QuickLuchTestScript2.Mytimesheet()[pri:6, instance:hrm.testcase.QuickLuchTestScript2@6f2e1024] output=Mytimesheet]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApp -->
       </class> <!-- hrm.testcase.QuickLuchTestScript2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Test Automation OrangeHRM framework Test Suite -->
 </testng-results>

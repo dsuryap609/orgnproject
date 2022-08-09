@@ -1,0 +1,429 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>29/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Aug 09 17:16:39 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>532 seconds (532299 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='hrm.testcase.QuickLuchTestScript2.Leavelist()'><b>Leavelist</b><br>Test class: hrm.testcase.QuickLuchTestScript2<br/>
+<a href="#Output-1769076212" onClick='toggleBox("Output-1769076212", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1769076212" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1769076212">
+Leavelist<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>hrm.testcase.QuickLuchTestScript2@6f2e1024</td></tr>
+<tr>
+<td title='hrm.testcase.HomePageTestScript5.Performance()'><b>Performance</b><br>Test class: hrm.testcase.HomePageTestScript5<br/>
+<a href="#Output-1478917025" onClick='toggleBox("Output-1478917025", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1478917025" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1478917025">
+Performance<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>hrm.testcase.HomePageTestScript5@526b2f3e</td></tr>
+<tr>
+<td title='hrm.testcase.QuickLuchTestScript2.Assignleave()'><b>Assignleave</b><br>Test class: hrm.testcase.QuickLuchTestScript2<br/>
+<a href="#Output-395271003" onClick='toggleBox("Output-395271003", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-395271003" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-395271003">
+Assignleave<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>hrm.testcase.QuickLuchTestScript2@6f2e1024</td></tr>
+<tr>
+<td title='hrm.testcase.AdminTestScript3.Adimtouser()'><b>Adimtouser</b><br>Test class: hrm.testcase.AdminTestScript3<br/>
+<a href="#Output-427554287" onClick='toggleBox("Output-427554287", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-427554287" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-427554287">
+Adimtuser<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>hrm.testcase.AdminTestScript3@536d97f8</td></tr>
+<tr>
+<td title='hrm.testcase.HomePageTestScript5.Questionmarklink()'><b>Questionmarklink</b><br>Test class: hrm.testcase.HomePageTestScript5<br/>
+<a href="#Output-269307928" onClick='toggleBox("Output-269307928", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-269307928" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-269307928">
+Questionmark<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>hrm.testcase.HomePageTestScript5@526b2f3e</td></tr>
+<tr>
+<td title='hrm.testcase.HomePageTestScript5.Leave()'><b>Leave</b><br>Test class: hrm.testcase.HomePageTestScript5<br/>
+<a href="#Output-1691481417" onClick='toggleBox("Output-1691481417", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1691481417" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1691481417">
+Leave<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>hrm.testcase.HomePageTestScript5@526b2f3e</td></tr>
+<tr>
+<td title='hrm.testcase.HomePageTestScript5.WelcomeMenuTologout()'><b>WelcomeMenuTologout</b><br>Test class: hrm.testcase.HomePageTestScript5<br/>
+<a href="#Output-2075760352" onClick='toggleBox("Output-2075760352", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2075760352" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2075760352">
+WelcomeMenuTologout<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>hrm.testcase.HomePageTestScript5@526b2f3e</td></tr>
+<tr>
+<td title='hrm.testcase.HomePageTestScript5.Buzz()'><b>Buzz</b><br>Test class: hrm.testcase.HomePageTestScript5<br/>
+<a href="#Output-1929713950" onClick='toggleBox("Output-1929713950", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1929713950" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1929713950">
+Buzz<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>hrm.testcase.HomePageTestScript5@526b2f3e</td></tr>
+<tr>
+<td title='hrm.testcase.HomePageTestScript5.Myinfo()'><b>Myinfo</b><br>Test class: hrm.testcase.HomePageTestScript5<br/>
+<a href="#Output-1601969632" onClick='toggleBox("Output-1601969632", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1601969632" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1601969632">
+Myinfo<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>hrm.testcase.HomePageTestScript5@526b2f3e</td></tr>
+<tr>
+<td title='hrm.testcase.BuzzTestScript4.Buzz()'><b>Buzz</b><br>Test class: hrm.testcase.BuzzTestScript4<br/>
+<a href="#Output-1469783430" onClick='toggleBox("Output-1469783430", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1469783430" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1469783430">
+Buzz<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>hrm.testcase.BuzzTestScript4@3c50ad4b</td></tr>
+<tr>
+<td title='hrm.testcase.AdminTestScript3.CheckBox()'><b>CheckBox</b><br>Test class: hrm.testcase.AdminTestScript3<br/>
+<a href="#Output-874981433" onClick='toggleBox("Output-874981433", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-874981433" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-874981433">
+CheckBox<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>hrm.testcase.AdminTestScript3@536d97f8</td></tr>
+<tr>
+<td title='hrm.testcase.QuickLuchTestScript2.Myleave()'><b>Myleave</b><br>Test class: hrm.testcase.QuickLuchTestScript2<br/>
+<a href="#Output-2120486917" onClick='toggleBox("Output-2120486917", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2120486917" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2120486917">
+Myleave<br/>
+Myleavelink<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>hrm.testcase.QuickLuchTestScript2@6f2e1024</td></tr>
+<tr>
+<td title='hrm.testcase.PayGradeTestScript7.HomePagetoPayGrade()'><b>HomePagetoPayGrade</b><br>Test class: hrm.testcase.PayGradeTestScript7<br/>
+<a href="#Output-1713535296" onClick='toggleBox("Output-1713535296", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1713535296" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1713535296">
+HomePagetoPayGrade<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>hrm.testcase.PayGradeTestScript7@37496720</td></tr>
+<tr>
+<td title='hrm.testcase.BuzzTestScript4.Buzz1()'><b>Buzz1</b><br>Test class: hrm.testcase.BuzzTestScript4<br/>
+<a href="#Output-1786416670" onClick='toggleBox("Output-1786416670", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1786416670" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1786416670">
+Buzz1<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>hrm.testcase.BuzzTestScript4@3c50ad4b</td></tr>
+<tr>
+<td title='hrm.testcase.QuickLuchTestScript2.Timesheet()'><b>Timesheet</b><br>Test class: hrm.testcase.QuickLuchTestScript2<br/>
+<a href="#Output-909682770" onClick='toggleBox("Output-909682770", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-909682770" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-909682770">
+Timesheet<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>hrm.testcase.QuickLuchTestScript2@6f2e1024</td></tr>
+<tr>
+<td title='hrm.testcase.BuzzTestScript4.Buzz2()'><b>Buzz2</b><br>Test class: hrm.testcase.BuzzTestScript4<br/>
+<a href="#Output-383022463" onClick='toggleBox("Output-383022463", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-383022463" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-383022463">
+Buzz2<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>hrm.testcase.BuzzTestScript4@3c50ad4b</td></tr>
+<tr>
+<td title='hrm.testcase.AdminTestScript3.User_System()'><b>User_System</b><br>Test class: hrm.testcase.AdminTestScript3<br/>
+<a href="#Output-801544361" onClick='toggleBox("Output-801544361", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-801544361" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-801544361">
+User_System<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>hrm.testcase.AdminTestScript3@536d97f8</td></tr>
+<tr>
+<td title='hrm.testcase.HomePageTestScript5.Directory()'><b>Directory</b><br>Test class: hrm.testcase.HomePageTestScript5<br/>
+<a href="#Output-895062568" onClick='toggleBox("Output-895062568", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-895062568" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-895062568">
+Directory<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>hrm.testcase.HomePageTestScript5@526b2f3e</td></tr>
+<tr>
+<td title='hrm.testcase.QuickLuchTestScript2.Applyleave()'><b>Applyleave</b><br>Test class: hrm.testcase.QuickLuchTestScript2<br/>
+<a href="#Output-1600497367" onClick='toggleBox("Output-1600497367", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1600497367" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1600497367">
+Applyleavelink<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>hrm.testcase.QuickLuchTestScript2@6f2e1024</td></tr>
+<tr>
+<td title='hrm.testcase.LoginPageTestScript1.LoginTestScript()'><b>LoginTestScript</b><br>Test class: hrm.testcase.LoginPageTestScript1<br/>
+<a href="#Output-2035258234" onClick='toggleBox("Output-2035258234", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2035258234" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2035258234">
+Login<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>hrm.testcase.LoginPageTestScript1@43c87306</td></tr>
+<tr>
+<td title='hrm.testcase.QuickLuchTestScript2.Mytimesheet()'><b>Mytimesheet</b><br>Test class: hrm.testcase.QuickLuchTestScript2<br/>
+<a href="#Output-288197656" onClick='toggleBox("Output-288197656", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-288197656" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-288197656">
+Mytimesheet<br/>
+Mytimesheetlink<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>hrm.testcase.QuickLuchTestScript2@6f2e1024</td></tr>
+<tr>
+<td title='hrm.testcase.HomePageTestScript5.Maintenance()'><b>Maintenance</b><br>Test class: hrm.testcase.HomePageTestScript5<br/>
+<a href="#Output-611498500" onClick='toggleBox("Output-611498500", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-611498500" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-611498500">
+Maintenance<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>hrm.testcase.HomePageTestScript5@526b2f3e</td></tr>
+<tr>
+<td title='hrm.testcase.HomePageTestScript5.Marketplace()'><b>Marketplace</b><br>Test class: hrm.testcase.HomePageTestScript5<br/>
+<a href="#Output-2057710224" onClick='toggleBox("Output-2057710224", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2057710224" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2057710224">
+Marketplace<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>hrm.testcase.HomePageTestScript5@526b2f3e</td></tr>
+<tr>
+<td title='hrm.testcase.LeaveListTestScript8.Leavelist()'><b>Leavelist</b><br>Test class: hrm.testcase.LeaveListTestScript8<br/>
+<a href="#Output-575165950" onClick='toggleBox("Output-575165950", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-575165950" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-575165950">
+Leavelist<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>hrm.testcase.LeaveListTestScript8@17947e6d</td></tr>
+<tr>
+<td title='hrm.testcase.HomePageTestScript5.Notification()'><b>Notification</b><br>Test class: hrm.testcase.HomePageTestScript5<br/>
+<a href="#Output-500129592" onClick='toggleBox("Output-500129592", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-500129592" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-500129592">
+Notification<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>hrm.testcase.HomePageTestScript5@526b2f3e</td></tr>
+<tr>
+<td title='hrm.testcase.HomePageTestScript5.Recruitment()'><b>Recruitment</b><br>Test class: hrm.testcase.HomePageTestScript5<br/>
+<a href="#Output-2078138276" onClick='toggleBox("Output-2078138276", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2078138276" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2078138276">
+Recruitment<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>hrm.testcase.HomePageTestScript5@526b2f3e</td></tr>
+<tr>
+<td title='hrm.testcase.HomePageTestScript5.Time()'><b>Time</b><br>Test class: hrm.testcase.HomePageTestScript5<br/>
+<a href="#Output-890867107" onClick='toggleBox("Output-890867107", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-890867107" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-890867107">
+Time<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>hrm.testcase.HomePageTestScript5@526b2f3e</td></tr>
+<tr>
+<td title='hrm.testcase.HomePageTestScript5.Pim()'><b>Pim</b><br>Test class: hrm.testcase.HomePageTestScript5<br/>
+<a href="#Output-384322963" onClick='toggleBox("Output-384322963", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-384322963" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-384322963">
+Pim<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>hrm.testcase.HomePageTestScript5@526b2f3e</td></tr>
+<tr>
+<td title='hrm.testcase.JobTileTestScript6.AdimtouserToJobTile()'><b>AdimtouserToJobTile</b><br>Test class: hrm.testcase.JobTileTestScript6<br/>
+<a href="#Output-407582069" onClick='toggleBox("Output-407582069", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-407582069" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-407582069">
+AdimtouserToJobTile<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>hrm.testcase.JobTileTestScript6@28f9fedd</td></tr>
+</table><p>
+</body>
+</html>
